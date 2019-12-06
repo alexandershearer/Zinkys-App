@@ -8,26 +8,27 @@ function App() {
     <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home">
-          <img id='gssLogo'
-            src="Zinkys.png"
-            width="75"
-            height="75"
+          <img id='ZinkyLogo'
+            src="ZinkyLogo2.png"
+            width="90`"
+            height="80"
             className="d-inline-block align-top"
-            alt="GSS logo"
+            alt="Zinkyslogo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#upcoming">Grooming</Nav.Link>
-            <Nav.Link href="#past">Doggy Daycare</Nav.Link>
-            <Nav.Link href="#schedule">Boarding</Nav.Link>
-            <Nav.Link eventKey={2} href="#about">Full Price List</Nav.Link>
-            <Nav.Link href="#schedule">Requirements</Nav.Link>
+            <Nav.Link href="#grooming">Grooming</Nav.Link>
+            <Nav.Link href="#daycare">Doggy Daycare</Nav.Link>
+            <Nav.Link href="#boarding">Boarding</Nav.Link>
+            <Nav.Link href="#pricelist">Full Price List</Nav.Link>
+            <Nav.Link href="#requirements">Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>
+
   );
 }
 

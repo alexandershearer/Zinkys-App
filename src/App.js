@@ -1,7 +1,19 @@
 import React from 'react';
 import './App.css';
+import Grooming from './Grooming';
+import Home from './Home';
+import doggyDaycare from './doggyDaycare';
+import Boarding from './Boarding';
+import priceList from './priceList';
+import Requirements from './Requirements';
+
+
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+
+import { Switch, Route, Link } from 'react-router-dom';
+
+
 
 function App() {
   return (
@@ -19,16 +31,27 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#upcoming">Grooming</Nav.Link>
-            <Nav.Link href="#past">Doggy Daycare</Nav.Link>
-            <Nav.Link href="#schedule">Boarding</Nav.Link>
-            <Nav.Link eventKey={2} href="#about">Full Price List</Nav.Link>
-            <Nav.Link href="#schedule">Requirements</Nav.Link>
+            <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
+            <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
+            <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
+            <Nav.Link as={Link} to='pricelist'>Full Price List</Nav.Link>
+            <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+      <div>
+          <Switch>
+            <Route exact path='/' component={Home} /> 
+            <Route path='/grooming' component={Grooming} />
+            <Route path='/doggydaycare' component={doggyDaycare} />
+            <Route path='/boarding' component={Boarding} />
+            <Route path='/pricelist' component={priceList} />
+            <Route path='/requirements' component={Requirements} />
+          </Switch>
+      </div>
+      </div>
   );
+
 }
 
 export default App;

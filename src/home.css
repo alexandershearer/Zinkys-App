@@ -1,3 +1,17 @@
 #homeTitle{
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    border-bottom: 4px black solid;
+    margin-bottom: 40px;
+    border-radius: 0 0 10% 10%;
+}
+
+.homeLayout {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 18pt;
+    line-height: 50px;
 }

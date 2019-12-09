@@ -1,3 +1,8 @@
 .text{
-    padding-top: 125px;
+    padding-top: 100px;
+}
+
+.title{
+    text-decoration: underline;
+    margin-bottom: 35px;
 }

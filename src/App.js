@@ -30,7 +30,7 @@ function App() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="d-flex justify-content-evenly">
+          <Nav className="navBar">
             <Nav.Link as={Link} to='/home'>Home</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>

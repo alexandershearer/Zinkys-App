@@ -9,7 +9,7 @@ class priceList extends Component {
         return (
             <Container className='text'>
                 <div>
-                    <h1>Price List</h1>
+                    <h1 className='title'>Price List</h1>
                 </div>
         <Row>
              <Col>
@@ -58,7 +58,7 @@ class priceList extends Component {
             
 
             <Col>
-                <h1>Boarding <h3>(Inclues Daycare</h3></h1>
+                <h1>Boarding <h3>(Inclues Daycare)</h3></h1>
                 <p>Small Dogs --- $21.00 per night</p>
                 <p>Large Dogs --- $24.00 per night</p>
             </Col>

@@ -47,17 +47,12 @@ class priceList extends Component {
             </Col>
 
             <Col>
-                <h3>Daycare Services</h3>
-                <p>Per Day --- $16.00</p>
-                <p>5 Day Pass --- $75.00</p>
-                <p>7 Day Pass --- $101.50</p>
-                <p>10 Day Pass --- $140.00</p>
-                <p>20 Day Pass --- $260.00</p>
+                <p></p>
             </Col>
             
 
             <Col>
-                <h1>Boarding <h3>(Inclues Daycare)</h3></h1>
+                <h3>Boarding<h6>(Inclues Daycare)</h6></h3>
                 <p>Small Dogs --- $21.00 per night</p>
                 <p>Large Dogs --- $24.00 per night</p>
             </Col>

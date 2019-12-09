@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import './pricelist.css';
 
 class priceList extends Component {
     render() {
         return (
-            <Container>
+            <Container className='text'>
                 <div>
                     <h1>Price List</h1>
                 </div>

@@ -19,15 +19,18 @@ function App() {
   return (
     <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
-          <img id='ZinkyLogo'
-            src="ZinkyLogo2.png"
-            width="90`"
-            height="80"
-            className="d-inline-block align-top"
-            alt="Zinkyslogo"
-          />
-        </Navbar.Brand>
+        <Nav.Link as={Link} to='/'>
+          <Navbar.Brand>
+            <img id='ZinkyLogo'
+              src="ZinkyLogo2.png"
+              width="90`"
+              height="80"
+              className="d-inline-block align-top"
+              alt="Zinkyslogo"
+            />
+          </Navbar.Brand>
+        </Nav.Link>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

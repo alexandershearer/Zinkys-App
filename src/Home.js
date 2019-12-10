@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-
-
+import './Slideshow';
 
 class Home extends Component {
     render() {

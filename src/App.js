@@ -12,6 +12,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import { Switch, Route, Link } from 'react-router-dom';
+import Carousel from './Slideshow';
+
 
 
 
@@ -43,6 +45,8 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <div>
+      <Carousel />
+
           <Switch>
             <Route exact path='/' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
@@ -52,6 +56,7 @@ function App() {
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>
+
       </div>
   );
 

@@ -13,7 +13,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import { Switch, Route, Link } from 'react-router-dom';
-import Carousel from './Slideshow';
 
 
 

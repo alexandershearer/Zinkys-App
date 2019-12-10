@@ -4,7 +4,7 @@ import Grooming from './Grooming';
 import Home from './Home';
 import doggyDaycare from './doggyDaycare';
 import Boarding from './Boarding';
-import priceList from './priceList';
+import PriceList from './PriceList';
 import Requirements from './Requirements';
 import Footer from './Footer';
 
@@ -51,7 +51,7 @@ function App() {
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
-            <Route path='/pricelist' component={priceList} />
+            <Route path='/pricelist' component={PriceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>

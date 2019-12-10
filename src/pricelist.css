@@ -1,5 +1,5 @@
 .text{
-    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 .title{
@@ -13,4 +13,8 @@
 
 #box{
     border: 2px black solid;
+}
+
+p{
+    font-size: 18pt;
 }

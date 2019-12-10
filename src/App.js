@@ -6,6 +6,7 @@ import doggyDaycare from './doggyDaycare';
 import Boarding from './Boarding';
 import priceList from './priceList';
 import Requirements from './Requirements';
+import Footer from './Footer';
 
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -43,6 +44,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
       <div>
           <Switch>
             <Route exact path='/home' component={Home} /> 
@@ -53,6 +55,9 @@ function App() {
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>
+
+      <Footer/>
+
       </div>
   );
 

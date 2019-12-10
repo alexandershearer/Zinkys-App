@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import './Grooming.css';
 import Zinkys13 from './Images/Zinkys13.jpg';
 import Zinkys14 from './Images/Zinkys14.jpg';
+import './Requirements.css';
+
 
 
 class Grooming extends Component {

@@ -1,5 +1,9 @@
-#Slideshow {
+#carouselImg{
     height: 400px;
     width: 200px;
-    
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+#fullCarousel {
 }

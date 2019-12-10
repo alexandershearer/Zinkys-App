@@ -1,20 +1,29 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './Grooming.css';
+import Zinkys13 from './Images/Zinkys13.jpg';
+import Zinkys14 from './Images/Zinkys14.jpg';
+
 
 class Grooming extends Component {
     render() {
         return (
             <div>
-                <h1>Grooming</h1>
+                <h1>Grooming Rates</h1>
+                
                 <p>
+                <img src={Zinkys13} height="200" width="250" id="pic"></img>
                     Let us pamper your pup. We will leave your pups shinny and smelling fresh!
+                <img src={Zinkys14} height="200" width="250" id="pic2"></img>    
+                
                 </p>
+               
                 <Row>
              <Col>
                 
-                <h2>Grooming Rates</h2>
+                
                 <h3>Full Groom</h3>
                 <p>Small Dogs --- $35.00</p>
                 <p>Medium Dogs --- $40.00</p>

@@ -15,6 +15,7 @@ class Boarding extends Component {
                     <h3>Prices</h3>
                 <p>Small Dogs --- $21.00 per night</p>
                 <p>Large Dogs --- $24.00 per night</p>
+                <p>If you board more than one dog with us at a time, you automatically get 40% off of your total price!</p>
                 </div>
                 <div>
                     <p>

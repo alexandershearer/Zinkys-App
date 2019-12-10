@@ -41,21 +41,21 @@ function App() {
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
-            <Nav.Link as={Link} to='pricelist'>Full Price List</Nav.Link>
+            <Nav.Link as={Link} to='PriceList'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
       <div>
-      <Carousel />
+      
 
           <Switch>
             <Route exact path='/home' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
-            <Route path='/pricelist' component={PriceList} />
+            <Route path='/PriceList' component={PriceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>

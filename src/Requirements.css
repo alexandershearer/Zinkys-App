@@ -1,7 +1,51 @@
 #pic {
-    float: left;
+    float: center;
+    border: 4px black solid;
+    
+   
 }
 
-div {
+#pic2 {
+    margin-bottom: 90pt;
+    margin-left: -400pt;
+    margin-right: 50pt;
+    margin-top: -15pt;
     
 }
+
+.tempTest {
+    text-align: inherit;
+    margin-left: 18pt;
+}
+
+.par {
+    padding-right: 200pt;
+    margin-left: 200pt;
+}
+
+
+.titleReq {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.vaccTitle {
+    text-align: center;
+    list-style-type: none;
+   
+}
+
+.reqList {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 25pt;
+   
+}
+
+body, html {
+    background: url("./Images/pawPrintsBackground.png")repeat-x 0 0;
+    padding: 0;
+    z-index: -1; 
+    background-color: #ffcc32;
+}
+

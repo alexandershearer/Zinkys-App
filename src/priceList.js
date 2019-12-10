@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './pricelist.css';
 
-class priceList extends Component {
+class PriceList extends Component {
     render() {
         return (
             <Container className='text'>
@@ -16,7 +16,7 @@ class priceList extends Component {
                 
                 <h2 id='priceHeader'>Grooming Rates</h2>
                 <h3>Full Groom</h3>
-                <p>Small Dogs --- $35.00</p>
+                <p id='ptext'>Small Dogs --- $35.00</p>
                 <p>Medium Dogs --- $40.00</p>
                 <p>Large Dogs --- $45.00</p>
                 <p>XL Dogs --- $60.00</p>
@@ -69,4 +69,4 @@ class priceList extends Component {
     }
 }
 
-export default priceList;
+export default PriceList;

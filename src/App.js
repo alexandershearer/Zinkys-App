@@ -42,7 +42,6 @@ function App() {
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
             <Nav.Link as={Link} to='Pricelist'>Full Price List</Nav.Link>
-            <Nav.Link as={Link} to='PriceList'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>

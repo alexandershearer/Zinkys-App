@@ -4,8 +4,9 @@ import Grooming from './Grooming';
 import Home from './Home';
 import doggyDaycare from './doggyDaycare';
 import Boarding from './Boarding';
-import priceList from './priceList';
+import PriceList from './PriceList';
 import Requirements from './Requirements';
+import Footer from './Footer';
 
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -35,7 +36,8 @@ function App() {
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="navBar">
+            <Nav.Link as={Link} to='/home'>Home</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
@@ -44,18 +46,22 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
       <div>
       <Carousel />
 
           <Switch>
-            <Route exact path='/' component={Home} /> 
+            <Route exact path='/home' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
-            <Route path='/pricelist' component={priceList} />
+            <Route path='/pricelist' component={PriceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>
+
+
+      <Footer/>
 
       </div>
   );

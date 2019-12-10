@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 #gssLogo {
   size: 2200pt;
+  border-radius: 50%;
+}
+
+.navBar {
+  font-size: 24px;
+}
+
+.fullBar{
 }

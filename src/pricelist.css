@@ -1,0 +1,16 @@
+.text{
+    margin-bottom: 50px;
+}
+
+.title{
+    text-decoration: underline;
+    font-size: 36pt;
+}
+
+#priceHeader {
+    text-decoration: underline;
+}
+
+#box{
+    border: 2px black solid;
+}

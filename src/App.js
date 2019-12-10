@@ -6,6 +6,7 @@ import doggyDaycare from './doggyDaycare';
 import Boarding from './Boarding';
 import priceList from './priceList';
 import Requirements from './Requirements';
+import Footer from './Footer';
 
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -33,7 +34,8 @@ function App() {
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="navBar">
+            <Nav.Link as={Link} to='/home'>Home</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
@@ -42,9 +44,10 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
       <div>
           <Switch>
-            <Route exact path='/' component={Home} /> 
+            <Route exact path='/home' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
@@ -52,6 +55,9 @@ function App() {
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>
+
+      <Footer/>
+
       </div>
   );
 

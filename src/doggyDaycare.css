@@ -4,8 +4,16 @@
 
 #groupOne {
     float: left;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #groupTwo{
     float: right;
+}
+
+#pictureOne {
+    height: 300px;
+    width: 240px;
 }

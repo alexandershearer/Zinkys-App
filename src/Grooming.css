@@ -1,5 +1,14 @@
 #fullGroom{
     text-decoration: underline;
+    
+}
+
+#col1 {
+    padding-left: 90pt;
+}
+
+#col2 {
+    margin-bottom: 20pt;
 }
 
 #bathOnly{

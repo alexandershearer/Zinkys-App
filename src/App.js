@@ -35,11 +35,11 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navBar">
-            <Nav.Link as={Link} to='/home'>Home</Nav.Link>
+            <Nav.Link as={Link} to='/Home'>Home</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
-            <Nav.Link as={Link} to='pricelist'>Full Price List</Nav.Link>
+            <Nav.Link as={Link} to='Pricelist'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -47,7 +47,7 @@ function App() {
 
       <div>
           <Switch>
-            <Route exact path='/home' component={Home} /> 
+            <Route exact path='/Home' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />

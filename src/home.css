@@ -2,5 +2,18 @@
     float: initial;
 }
 
+.topPar {
+    text-align: center;
+    width: 75%;
+    margin-left: 220px;
+}
+
+.bottomPar {
+    padding-bottom: 50px;
+    text-align: center;
+    width: 75%;
+    margin-left: 220px;
+}
+
 
 

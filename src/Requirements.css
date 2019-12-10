@@ -1,15 +1,21 @@
-#pic {
+#img {
     float: center;
     border: 4px black solid;
+    height: 350px; 
+    width: 290px;
     
    
 }
 
-#pic2 {
+#img2 {
     margin-bottom: 90pt;
     margin-left: -400pt;
     margin-right: 50pt;
     margin-top: -15pt;
+    height: 280px;
+    width: 260px; 
+    float: right;
+    
     
 }
 

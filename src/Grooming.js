@@ -19,7 +19,7 @@ class Grooming extends Component {
                 </p>
 
                 <Row>
-                    <Col>
+                    <Col id='col1'>
 
                         <h3 id='fullGroom'>Full Groom</h3>
                         <p>Small Dogs --- $35.00</p>
@@ -29,14 +29,14 @@ class Grooming extends Component {
 
                     </Col>
 
-                    <Col>
+                    <Col id='col2'>
                         <h2 id='bathOnly'>Baths Only</h2>
                         <p>Small Dogs --- $15.00</p>
                         <p>Medium Dogs --- $20.00</p>
                         <p>Large Dogs --- $22.00</p>
                         <p>XL Dogs --- $30.00</p>
                     </Col>
-                    <Col>
+                    <Col id='col3'>
                         <h2 id='nailsClipped'>Nails Clipped</h2>
                         <p>All Dogs --- $10.00</p>
                         <h2 id='nailsClipped'>Matted Fur</h2>

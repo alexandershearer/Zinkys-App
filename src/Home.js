@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './Home.css';
+import './home.css';
 import './Slideshow';
 import Carousel from './Slideshow';
+import HomeImage from './Images/zinkys_home.png';
 
 
 
@@ -9,6 +10,10 @@ class Home extends Component {
     render() {
         return (
             <div className='homeLayout'>
+
+                <div style = {{height:"100vh"}}>
+                    <img id='landing' src={HomeImage} />
+                </div>
 
             <Carousel />
             <h1 id='homeTitle'>Only the best for your pets!</h1>

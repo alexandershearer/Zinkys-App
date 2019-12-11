@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Nav.Link as={Link} to='/'>
+        <Nav.Link as={Link} to='/Home'>
           <Navbar.Brand>
             <img id='ZinkyLogo'
               src="ZinkyLogo2.png"

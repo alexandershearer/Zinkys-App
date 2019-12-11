@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CSS from './doggyDaycare.css';
+import './doggyDaycare.css';
 import Zinkys26 from './Images/Zinkys26.jpg'
 
 class doggyDaycare extends Component {

@@ -7,6 +7,7 @@ import Boarding from './Boarding';
 import PriceList from './PriceList';
 import Requirements from './Requirements';
 import Footer from './Footer';
+import FBlogo2 from './Images/FBlogo2.png'
 
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Nav.Link as={Link} to='/'>
+        {/* <Nav.Link as={Link} to='/'> */}
           <Navbar.Brand>
             <img id='ZinkyLogo'
               src="ZinkyLogo2.png"
@@ -31,7 +32,7 @@ function App() {
               alt="Zinkyslogo"
             />
           </Navbar.Brand>
-        </Nav.Link>
+        {/* </Nav.Link> */}
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -44,11 +45,20 @@ function App() {
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+
+        <Navbar.Brand>
+          <img id='FBLogo'
+            src={FBlogo2}
+            to="https://www.facebook.com/Zinkysdoggydaycare"
+            width="65"
+            height="60"
+            className="d-inline-block align-top"
+            alt="FBlogo"
+          />
+        </Navbar.Brand>
       </Navbar>
 
       <div>
-      
-
           <Switch>
             <Route exact path='/Home' component={Home} /> 
             <Route path='/grooming' component={Grooming} />

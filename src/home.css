@@ -15,5 +15,24 @@
     margin-left: 220px;
 }
 
+#List {
+    margin-bottom: 190px;
+    font-size: 20px;
+    list-style-type: none;
+    
+   
+}
+
+h3 {
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#p2 {
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 290px;
+}
+
 
 

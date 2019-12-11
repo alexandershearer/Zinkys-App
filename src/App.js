@@ -37,10 +37,10 @@ function App() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navBar">
             <Nav.Link as={Link} to='/Home'>Home</Nav.Link>
+            <Nav.Link as={Link} to='Pricelist'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
-            <Nav.Link as={Link} to='Pricelist'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -51,10 +51,10 @@ function App() {
 
           <Switch>
             <Route exact path='/Home' component={Home} /> 
+            <Route path='/PriceList' component={PriceList} />
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
-            <Route path='/PriceList' component={PriceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>

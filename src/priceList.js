@@ -46,15 +46,6 @@ class PriceList extends Component {
                 <p>10 Day Pass --- $140.00</p>
                 <p>20 Day Pass --- $260.00</p>
             </Col>
-
-            <Col id='box'>
-                <h3>Daycare Services</h3>
-                <p>Per Day --- $16.00</p>
-                <p>5 Day Pass --- $75.00</p>
-                <p>7 Day Pass --- $101.50</p>
-                <p>10 Day Pass --- $140.00</p>
-                <p>20 Day Pass --- $260.00</p>
-            </Col>
             
 
             <Col id='box'>

@@ -26,7 +26,7 @@ function App() {
           <Navbar.Brand>
             <img id='ZinkyLogo'
               src="ZinkyLogo2.png"
-              width="90`"
+              width="80`"
               height="80"
               className="d-inline-block align-top"
               alt="Zinkyslogo"

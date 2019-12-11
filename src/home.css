@@ -1,3 +1,18 @@
+#landing {
+/* padding-top: 50px; */
+margin-top: 60px;
+height: 650px;
+width: 625px;
+border-radius: 50%;
+box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+border: 2px solid rgba(61, 38, 27, 0.808);
+
+}
+
+#homeTitle {
+    font-family: 'Sanchez', serif;
+}
+
 #pic {
     float: initial;
 }
@@ -6,6 +21,8 @@
     text-align: center;
     width: 75%;
     margin-left: 220px;
+    font-family: 'Sanchez', serif;
+    
 }
 
 .bottomPar {
@@ -13,12 +30,14 @@
     text-align: center;
     width: 75%;
     margin-left: 220px;
+    font-family: 'Sanchez', serif;
 }
 
 #List {
     margin-bottom: 190px;
     font-size: 20px;
     list-style-type: none;
+    font-family: 'Sanchez', serif;
     
    
 }
@@ -26,12 +45,47 @@
 h3 {
     margin-left: 30px;
     text-decoration: underline;
+    font-family: 'Sanchez', serif;
 }
 
 #p2 {
     text-align: center;
     margin-left: 140px;
     margin-right: 290px;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    #landing {
+        height: 450px;
+        width: 425px;
+        margin: 0;
+    }
+    body,html {
+        background: #ffcc32;
+        margin: 0;
+    }
+    .bottomPar {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .topPar {
+        padding-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #imgHolder{
+        visibility: hidden;
+    }
+  }
+
+  @media (max-width:800px) {
+    #carouselContainer {
+        display:none !important;
+    }
 }
 
 

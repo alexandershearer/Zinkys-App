@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import CSS from './doggyDaycare.css';
+import './doggyDaycare.css';
 import Zinkys26 from './Images/Zinkys26.jpg'
 import Zinkys35 from './Images/Zinkys35.jpg'
 import Zinkys31 from './Images/Zinkys31.jpg'
 import Zinkys12 from './Images/Zinkys12.jpg'
+
 
 class doggyDaycare extends Component {
     render() {

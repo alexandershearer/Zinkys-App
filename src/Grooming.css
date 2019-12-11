@@ -1,23 +1,28 @@
 #fullGroom{
     text-decoration: underline;
+    font-family: 'Sanchez', serif;
     
 }
 
 #col1 {
     padding-left: 90pt;
+    font-family: 'Sanchez', serif;
 }
 
 #col2 {
     margin-bottom: 20pt;
+    font-family: 'Sanchez', serif;
 }
 
 #bathOnly{
     text-decoration: underline;
+    font-family: 'Sanchez', serif;
 
 }
 
 #nailsClipped{
     text-decoration: underline;
+    font-family: 'Sanchez', serif;
 
 }
 
@@ -58,4 +63,9 @@
 
   #groomingTitle {
       text-decoration: underline;
+      font-family: 'Sanchez', serif;
+  }
+
+  p {
+    font-family: 'Sanchez', serif;
   }

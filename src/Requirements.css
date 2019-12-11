@@ -23,18 +23,22 @@
     text-align: inherit;
     margin-left: 2pt;
     margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
 }
 
 .par {
     padding-right: 200pt;
     margin-left: 200pt;
     margin-bottom: 20px;
+    font-family: 'Sanchez', serif;
 }
 
 
 .titleReq {
     text-decoration: underline;
     text-align: center;
+    margin: 20px;
+    font-family: 'Sanchez', serif;
 }
 
 .vaccTitle {
@@ -43,6 +47,7 @@
     list-style-type: none;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
    
 }
 
@@ -50,6 +55,8 @@
     text-align: center;
     list-style-type: none;
     margin-right: 25pt;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
    
 }
 
@@ -59,4 +66,23 @@ body, html {
     z-index: -1; 
     background-color: #ffcc32;
 }
+
+
+
+@media only screen and (max-width: 1500px) {
+    body,html {
+        background: #ffcc32;
+        margin: 0;
+    }
+    .tempTest {
+        text-align: inherit;
+        margin-left: 0;
+    }
+    
+    .par {
+        padding-right: 0;
+        margin-left: 0
+    }
+    
+  }
 

@@ -1,20 +1,29 @@
-.text{
+.text {
     margin-top: 25px;
 }
 
-.title{
+.title {
     text-decoration: underline;
     font-size: 36pt;
+    font-family: 'Sanchez', serif;
+    
 }
 
 #priceHeader {
     text-decoration: underline;
+    
 }
 
 #box{
     border: 2px black solid;
+    
 }
 
-p{
+p {
     font-size: 18pt;
+    
 }
+
+
+
+

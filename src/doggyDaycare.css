@@ -1,5 +1,6 @@
 #doggyTitle{
     margin-top: 15px;
+    font-family: 'Sanchez', serif;
 }
 
 #groupOne {
@@ -23,11 +24,11 @@
 }
 
 #pictureTwo {
-  height: 300px;
-  width: 350px;
+  height: 350px;
+  width: 400px;
   float: left;
   margin-left: 500px;
-  margin-top: 30px;
+  margin-top: 0px;
   border-radius: 50%;
 }
 
@@ -53,13 +54,17 @@
 #topPar {
     margin-left: 200px;
     padding-right: 20px;
+    font-family: 'Sanchez', serif;
+    
 }
 
 #bottomPar {
     margin-left: 200px;
     padding-right: 290px;
+    font-family: 'Sanchez', serif;
 }
 
 #prices {
     margin-right: 640px;
+    font-family: 'Sanchez', serif;
 }

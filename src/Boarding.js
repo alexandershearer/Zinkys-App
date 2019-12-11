@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Boarding.css';
 
+
 class Boarding extends Component {
     render() {
         return (

@@ -55,3 +55,22 @@ body, html {
     background-color: #ffcc32;
 }
 
+
+
+@media only screen and (max-width: 1500px) {
+    body,html {
+        background: #ffcc32;
+        margin: 0;
+    }
+    .tempTest {
+        text-align: inherit;
+        margin-left: 0;
+    }
+    
+    .par {
+        padding-right: 0;
+        margin-left: 0
+    }
+    
+  }
+

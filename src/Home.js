@@ -11,11 +11,11 @@ class Home extends Component {
         return (
             <div className='homeLayout'>
 
-                <div style = {{height:"100vh"}}>
+                <div style = {{height:"95vh"}}>
                     <img id='landing' src={HomeImage} />
                 </div>
 
-            <Carousel />
+            <Carousel style={{}} />
             <h1 id='homeTitle'>Only the best for your pets!</h1>
             <p className="topPar">Hate leaving your pup at home alone all day when you leave for work? Is the weather bad and you can't take them for a walk? Then bring them on in to our doggy daycare program where he/she can play with other pups while getting the exercise they need and getting extra lovings from humans all day! At Zinky's, your fur baby will not be cooped up in a kennel all day, they'll be in one of our two play areas! We have an outside play area if weather permits, or an indoor play area for those cold and/or rainy days. Play areas are also seperated by the size of your pup, we keep the small dogs together and the big dogs together. </p>
 

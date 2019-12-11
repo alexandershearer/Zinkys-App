@@ -7,7 +7,7 @@ import Boarding from './Boarding';
 import priceList from './priceList';
 import Requirements from './Requirements';
 import Footer from './Footer';
-import FBlogo2 from './Images/FBlogo2.png'
+
 
 
 
@@ -38,34 +38,34 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navBar">
-            <Nav.Link as={Link} to='/Home'>Home</Nav.Link>
-            <Nav.Link as={Link} to='pricelist'>Full Price List</Nav.Link>
+            <Nav.Link as={Link} to='/'>Home</Nav.Link>
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
+            <Nav.Link as={Link} to='priceList'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
         <Navbar.Brand>
-          <img id='FBLogo'
-            src={FBlogo2}
-            to="https://www.facebook.com/Zinkysdoggydaycare"
+        <a href="https://www.facebook.com/Zinkysdoggydaycare">
+          <img 
+            src={require('./Images/FBlogo2.png')}
             width="65"
             height="60"
-            className="d-inline-block align-top"
-            alt="FBlogo"
           />
+        </a>
         </Navbar.Brand>
       </Navbar>
 
       <div>
           <Switch>
-            <Route exact path='/Home' component={Home} /> 
-            <Route path='/priceList' component={priceList} />
+            
+            <Route exact path='/' component={Home} /> 
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
+            <Route path='/PriceList' component={priceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>

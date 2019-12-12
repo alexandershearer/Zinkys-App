@@ -48,13 +48,16 @@ function App() {
         </Navbar.Collapse>
 
         <Navbar.Brand>
-        <a href="https://www.facebook.com/Zinkysdoggydaycare">
-          <img 
+          <div className='facebookDiv'>
+          <p id='facebookGreet'>Visit our Facebook page!</p>
+        <a href="https://www.facebook.com/Zinkysdoggydaycare" target='_blank'>
+          <img id='facebookImg'
             src={require('./Images/FBlogo2.png')}
             width="65"
             height="60"
           />
         </a>
+        </div>
         </Navbar.Brand>
       </Navbar>
 

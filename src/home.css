@@ -6,10 +6,29 @@ width: 625px;
 border-radius: 50%;
 box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
 border: 2px solid rgba(61, 38, 27, 0.808);
+position: absolute;
+top: 0;
+left: 10%;
 
 }
 #homeTitle {
     font-family: 'Sanchez', serif;
+}
+
+#mainImage{
+    background: url('./Images/Zinkys20.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid black;
+}
+#layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.575);
 }
 
 #pic {
@@ -24,7 +43,7 @@ border: 2px solid rgba(61, 38, 27, 0.808);
 }
 
 .bottomPar {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: center;
     width: 75%;
     margin-left: 220px;
@@ -40,7 +59,7 @@ border: 2px solid rgba(61, 38, 27, 0.808);
    
 }
 
-h3 {
+#hours {
     margin-left: 30px;
     text-decoration: underline;
     font-family: 'Sanchez', serif;
@@ -48,8 +67,11 @@ h3 {
 
 #p2 {
     text-align: center;
-    margin-left: 140px;
-    margin-right: 290px;
+
+}
+
+#List > li{
+    padding-bottom: 15px;
 }
 
 

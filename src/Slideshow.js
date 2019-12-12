@@ -11,7 +11,7 @@ class Slideshow extends Component {
             <Carousel id='fullCarousel'>
                 <Carousel.Item>
                     <img id= "carouselImg"
-                        className="d-center w-25"
+                        className="d-center w-20"
                         src={Zinkys2}
                         alt="First slide"
                     />
@@ -21,7 +21,7 @@ class Slideshow extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img id= "carouselImg"
-                        className="d-center w-25"
+                        className="d-center w-20"
                         src={Zinkys25}
                         alt="Second slide"
                     />
@@ -32,7 +32,7 @@ class Slideshow extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img id="carouselImg"
-                        className="d-center w-25"
+                        className="d-center w-20"
                         src={Zinkys24}
                         alt="Third slide"
                     />

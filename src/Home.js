@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <div className='homeLayout'>
 
-                <div style = {{height:"95vh"}}>
+                <div id='mainImage' style = {{height:"95vh"}}>
                     <img id='landing' src={HomeImage} />
                 </div>
 

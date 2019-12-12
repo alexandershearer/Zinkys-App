@@ -25,6 +25,10 @@ border: 2px solid rgba(61, 38, 27, 0.808);
     
 }
 
+.container {
+    margin-bottom: 100px;
+}
+
 .bottomPar {
     padding-bottom: 50px;
     text-align: center;

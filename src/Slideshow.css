@@ -2,4 +2,11 @@
     height: 375px;
     width: 300px;
     border: 2px solid black;
+    box-shadow: 4px 6px 50px -21px rgba(0,0,0,0.75);
+
+}
+
+
+#fullCarousel {
+    margin-top: 50px
 }

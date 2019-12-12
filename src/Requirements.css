@@ -62,6 +62,7 @@
 
 body, html {
     background: url("./Images/pawPrintsBackground.png")repeat-x 0 0;
+    /* background:url('./Images/Zinkys20.jpg'); */
     padding: 0;
     z-index: -1; 
     background-color: #ffcc32;

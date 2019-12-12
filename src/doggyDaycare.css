@@ -12,6 +12,7 @@
 
 #groupTwo{
     float: right;
+    display: flex;
 }
 
 #pictureOne {
@@ -27,19 +28,21 @@
   height: 350px;
   width: 400px;
   float: left;
-  margin-left: 500px;
+margin-right: 200px;
   margin-top: 0px;
-  border-radius: 50%;
+  border-radius: 40%;
+  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 #pictureThree {
-    height: 450px;
-    width: 550x;
+    height: 400px;
+    width: 450px;
     border-radius: 50%;
-    margin-right: 330px;
-    margin-bottom: 90px;
-    margin-top: 80px;
-    float: right;
+    margin-left: 200px;
+    border-radius: 40%;
+    box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+  border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 #pictureFour {
@@ -55,16 +58,60 @@
     margin-left: 200px;
     padding-right: 20px;
     font-family: 'Sanchez', serif;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 15px;
+    line-height: 35pt;
     
 }
 
 #bottomPar {
-    margin-left: 200px;
-    padding-right: 290px;
     font-family: 'Sanchez', serif;
+    line-height: 35pt;
+    margin-right:200px;
+    padding-top: 75px;
+    padding-left: 35px;
 }
 
 #prices {
-    margin-right: 640px;
     font-family: 'Sanchez', serif;
+    text-align: center;
+    float:right;
+    margin-right: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
 }
+
+
+
+@media only screen and (max-width: 1250px) {
+    #pictureOne {
+        display: none;
+    }
+    #pictureTwo {
+        display: none;
+    }
+    #pictureThree {
+        display: none;
+    }
+    #pictureFour {
+        display: none;
+    }
+    #prices {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    #topPar {
+        margin-left: 0;
+        padding-right: 0;
+        font-family: 'Sanchez', serif;
+        text-align: center;
+    }
+    
+    #bottomPar {
+        margin-right: 0;
+        padding-left: 0;
+        font-family: 'Sanchez', serif;
+        text-align: center;
+    }
+  }

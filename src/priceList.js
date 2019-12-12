@@ -11,7 +11,7 @@ class PriceList extends Component {
                 <div>
                     <h1 className='title'>Price List</h1>
                 </div>
-        <Row>
+        <Row id="row">
              <Col id='box'>
                 
                 <h2 id='priceHeader'>Grooming Rates</h2>
@@ -37,9 +37,9 @@ class PriceList extends Component {
                 <p>All Dogs --- $10.00</p>
             </Col>
         </Row>
-        <Row>
+        <Row id="row">
             <Col id='box'>
-                <h3>Daycare Services</h3>
+                <h3 id="services">Daycare Services</h3>
                 <p>Per Day --- $16.00</p>
                 <p>5 Day Pass --- $75.00</p>
                 <p>7 Day Pass --- $101.50</p>
@@ -49,7 +49,7 @@ class PriceList extends Component {
             
 
             <Col id='box'>
-                <h1>Boarding <h3>(Inclues Daycare)</h3></h1>
+                <h1 id="boardingTitle">Boarding <h3>(Inclues Daycare)</h3></h1>
                 <p>Small Dogs --- $21.00 per night</p>
                 <p>Large Dogs --- $24.00 per night</p>
             </Col>

@@ -21,23 +21,33 @@
 
 .tempTest {
     text-align: inherit;
-    margin-left: 18pt;
+    margin-left: 2pt;
+    margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
 }
 
 .par {
     padding-right: 200pt;
     margin-left: 200pt;
+    margin-bottom: 20px;
+    font-family: 'Sanchez', serif;
 }
 
 
 .titleReq {
     text-decoration: underline;
     text-align: center;
+    margin: 20px;
+    font-family: 'Sanchez', serif;
 }
 
 .vaccTitle {
     text-align: center;
+    margin-right: 29px;
     list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
    
 }
 
@@ -45,6 +55,8 @@
     text-align: center;
     list-style-type: none;
     margin-right: 25pt;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
    
 }
 

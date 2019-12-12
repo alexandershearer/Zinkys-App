@@ -1,0 +1,39 @@
+
+#boardingTitle {
+    text-decoration: underline;
+    margin: 15px;
+    font-family: 'Sanchez', serif;
+}
+
+#pricesTitle {
+    margin-right: 40px;
+    margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
+}
+
+#div1 {
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Sanchez', serif;
+}
+
+#div2 {
+    font-size: 25px;
+    margin-right: 270px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    font-family: 'Sanchez', serif;
+}
+
+#fortyOff {
+    font-weight: bold;
+    font-family: 'Sanchez', serif;
+}
+
+#div4 {
+    margin-top: 30px;
+    margin-left: 225px;
+    margin-right: 225px;
+    font-family: 'Sanchez', serif;
+}

@@ -1,5 +1,6 @@
 #doggyTitle{
     margin-top: 15px;
+    font-family: 'Sanchez', serif;
 }
 
 #groupOne {
@@ -15,13 +16,55 @@
 
 #pictureOne {
   height: 350px;
-  width: 400px;
+  width: 500px;
   float: right;
   margin-top: -60px;
   margin-right: 20px;
+  border-radius: 50%;
+}
+
+#pictureTwo {
+  height: 350px;
+  width: 400px;
+  float: left;
+  margin-left: 500px;
+  margin-top: 0px;
+  border-radius: 50%;
+}
+
+#pictureThree {
+    height: 450px;
+    width: 550x;
+    border-radius: 50%;
+    margin-right: 330px;
+    margin-bottom: 90px;
+    margin-top: 80px;
+    float: right;
+}
+
+#pictureFour {
+  height: 300px;
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  float: left;
 }
 
 #topPar {
     margin-left: 200px;
     padding-right: 20px;
+    font-family: 'Sanchez', serif;
+    
+}
+
+#bottomPar {
+    margin-left: 200px;
+    padding-right: 290px;
+    font-family: 'Sanchez', serif;
+}
+
+#prices {
+    margin-right: 640px;
+    font-family: 'Sanchez', serif;
 }

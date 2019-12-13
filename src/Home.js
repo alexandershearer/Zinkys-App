@@ -14,6 +14,7 @@ class Home extends Component {
                 <div id='mainImage' style = {{height:"100vh"}}>
                     <div id='layer' />
                     <img id='landing' src={HomeImage} />
+                    <h1 id='slogan'>Only the best for your pets!</h1>
                 </div>
 
             <Carousel />

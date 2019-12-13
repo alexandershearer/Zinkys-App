@@ -11,6 +11,16 @@ top: 0;
 left: 10%;
 
 }
+
+#slogan{
+    font-size: 52pt;
+    color: #ffcc32;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+
+    
+}
 #homeTitle {
     font-family: 'Sanchez', serif;
 }

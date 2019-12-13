@@ -23,6 +23,7 @@ left: 10%;
 }
 #homeTitle {
     font-family: 'Sanchez', serif;
+    margin-top: 40px;
 }
 
 #mainImage{
@@ -31,6 +32,7 @@ left: 10%;
     width: 100%;
     height: 100%;
     border-bottom: 10px solid black;
+    background-size: cover;
 }
 #layer{
     position: absolute;
@@ -88,6 +90,10 @@ left: 10%;
 #List > li{
     padding-bottom: 15px;
     font-size: 18pt;
+}
+
+.text {
+    padding-bottom: 20px;
 }
 
 

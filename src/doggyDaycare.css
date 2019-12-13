@@ -28,11 +28,11 @@
   height: 350px;
   width: 400px;
   float: left;
-margin-right: 200px;
+  margin-right: 200px;
   margin-top: 0px;
   border-radius: 40%;
   box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-border: 2px double rgba(61, 38, 27, 0.808);
+  border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 #pictureThree {
@@ -42,7 +42,7 @@ border: 2px double rgba(61, 38, 27, 0.808);
     margin-left: 200px;
     border-radius: 40%;
     box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-  border: 2px double rgba(61, 38, 27, 0.808);
+    border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 #pictureFour {
@@ -115,3 +115,5 @@ border: 2px double rgba(61, 38, 27, 0.808);
         text-align: center;
     }
   }
+
+

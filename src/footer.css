@@ -16,3 +16,12 @@
   color: #999DA0;
 }
 
+@media only screen and (max-width: 1250px) {
+ #number{
+   font-size: 100%;
+ }
+ .addressName{
+   font-size: 100%;
+ }
+}
+

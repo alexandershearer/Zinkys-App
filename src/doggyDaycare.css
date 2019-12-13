@@ -29,12 +29,6 @@
   height: 450px;
   width: 500px;
   float: left;
-  margin-top: 100px;
-  margin-right: 200px;
-  margin-left: 70px;
-  border-radius: 40%;
-  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-  border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 #pictureThree {
@@ -120,3 +114,5 @@
         text-align: center;
     }
   }
+
+

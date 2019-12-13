@@ -36,4 +36,21 @@
     margin-left: 225px;
     margin-right: 225px;
     font-family: 'Sanchez', serif;
+    padding-bottom: 40px;
+}
+
+@media (max-width:480px) {
+    #div1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #div2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #div4{
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
 }

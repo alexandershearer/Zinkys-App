@@ -4,12 +4,8 @@ import Grooming from './Grooming';
 import Home from './Home';
 import doggyDaycare from './doggyDaycare';
 import Boarding from './Boarding';
-import priceList from './priceList';
 import Requirements from './Requirements';
 import Footer from './Footer';
-
-
-
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -42,19 +38,30 @@ function App() {
             <Nav.Link as={Link} to='/grooming'>Grooming</Nav.Link>
             <Nav.Link as={Link} to='/doggydaycare'>Doggy Daycare</Nav.Link>
             <Nav.Link as={Link} to='/boarding'>Boarding</Nav.Link>
-            <Nav.Link as={Link} to='priceList'>Full Price List</Nav.Link>
             <Nav.Link as={Link} to='/requirements'>Requirements</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
 
+        <div id='hours'> 
+          <ul id='list'>Hours</ul>
+          <li>Mon-Fri: 8:00am-7:30pm</li>
+          <li>Sat 8:00am-12:00pm, 4:00pm-7:30pm</li>
+          <li>Sunday: 4:00pm-7:30pm</li>
+        </div>
+         
         <Navbar.Brand>
-        <a href="https://www.facebook.com/Zinkysdoggydaycare">
-          <img 
+          
+          <div className='facebookDiv'>
+          <p id='facebookGreet'>Visit our Facebook page!</p>
+        <a href="https://www.facebook.com/Zinkysdoggydaycare" target='_blank'>
+          <img id='facebookImg'
             src={require('./Images/FBlogo2.png')}
             width="65"
             height="60"
           />
         </a>
+        </div>
         </Navbar.Brand>
       </Navbar>
 
@@ -65,7 +72,6 @@ function App() {
             <Route path='/grooming' component={Grooming} />
             <Route path='/doggydaycare' component={doggyDaycare} />
             <Route path='/boarding' component={Boarding} />
-            <Route path='/PriceList' component={priceList} />
             <Route path='/requirements' component={Requirements} />
           </Switch>
       </div>

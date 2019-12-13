@@ -5,12 +5,13 @@
 }
 
 #col1 {
-    padding-left: 90pt;
+    padding-left: 120pt; 
     font-family: 'Sanchez', serif;
 }
 
 #col2 {
     margin-bottom: 20pt;
+    margin-right: 10px;
     font-family: 'Sanchez', serif;
 }
 

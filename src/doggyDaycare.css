@@ -1,70 +1,122 @@
 #doggyTitle{
-    margin-top: 15px;
+    margin-top: 40px;
     font-family: 'Sanchez', serif;
 }
 
 #groupOne {
-    float: left;
-    text-align: left;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 #groupTwo{
     float: right;
-}
-
-#pictureOne {
-  height: 350px;
-  width: 500px;
-  float: right;
-  margin-top: -60px;
-  margin-right: 20px;
-  border-radius: 50%;
-}
-
-#pictureTwo {
-  height: 350px;
-  width: 400px;
-  float: left;
-  margin-left: 500px;
-  margin-top: 0px;
-  border-radius: 50%;
-}
-
-#pictureThree {
-    height: 450px;
-    width: 550x;
-    border-radius: 50%;
-    margin-right: 330px;
-    margin-bottom: 90px;
-    margin-top: 20px;
-    float: right;
-}
-
-#pictureFour {
-  height: 300px;
-  width: 350px;
-  border-radius: 50%;
-  margin-left: 300px;
-  margin-bottom: 100px;
-  float: left;
-}
-
-#topPar {
-    margin-left: 200px;
-    padding-right: 20px;
-    font-family: 'Sanchez', serif;
+    display: flex;
     
 }
 
-#bottomPar {
-    margin-left: 200px;
-    padding-right: 290px;
-    font-family: 'Sanchez', serif;
+#pictureOne {
+  height: 400px;
+  width: 500px;
+  margin-left:400px;
+  margin-bottom: 50px;
+  border-radius: 40%;
+  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+  border: 2px double rgba(61, 38, 27, 0.808);
 }
 
-#prices {
-    margin-right: 640px;
-    font-family: 'Sanchez', serif;
+#pictureTwo {
+  height: 450px;
+  width: 500px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 70px;
+  border-radius: 40%;
+  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+  border: 2px double rgba(61, 38, 27, 0.808);
 }
+
+#pictureThree {
+    height: 400px;
+    width: 450px;
+    border-radius: 50%;
+    margin-right: 80px;
+    margin-bottom: 90px;
+    margin-top: 250px;
+    margin-left: 40px;
+    border-radius: 40%;
+    box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+    border: 2px double rgba(61, 38, 27, 0.808);
+}
+
+#pictureFour {
+  height: 400px;
+  width: 450px;
+  margin-right: 80px;
+  margin-top: -100px;
+  float: left;
+  border-radius: 40%;
+  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
+  border: 2px double rgba(61, 38, 27, 0.808);
+}
+
+/* #topPar { */
+    
+    /* font-family: 'Sanchez', serif; */
+    /* text-align: center; */
+    /* margin-left: 300px; */
+    /* line-height: 35pt; */
+    /* max-width: 680px; */
+    
+/* } */
+
+#prices {
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+#daycareServices {
+    text-decoration: underline;
+    margin: 20px;
+}
+
+#enrollment {
+    margin-top: 100px;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    #pictureOne {
+        display: none;
+    }
+    #pictureTwo {
+        display: none;
+    }
+    #pictureThree {
+        display: none;
+    }
+    #pictureFour {
+        display: none;
+    }
+    #prices {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    #topPar {
+        margin-left: 0;
+        padding-right: 0;
+        font-family: 'Sanchez', serif;
+        text-align: center;
+    }
+    
+    #bottomPar {
+        margin-right: 0;
+        padding-left: 0;
+        font-family: 'Sanchez', serif;
+        text-align: center;
+    }
+  }

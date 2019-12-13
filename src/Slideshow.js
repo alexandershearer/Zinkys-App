@@ -3,7 +3,7 @@ import './Slideshow.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Zinkys34 from './Images/Zinkys34.jpg';
 import Zinkys32 from './Images/Zinkys32.jpg';
-import Zinkys33 from './Images/Zinkys33.jpg';
+import Zinkys33 from './Images/Zinkys33.png';
 import Zinkys24 from './Images/Zinkys24.jpg';
 import Zinkys25 from './Images/Zinkys25.jpg';
 import Zinklys3 from './Images/Zinklys3.jpg';
@@ -37,7 +37,7 @@ class Slideshow extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img id= "carouselImg"
-                        className="d-center w-20"
+                        className="d-center w-25"
                         src={Zinkys25}
                         alt="Second slide"
                     />

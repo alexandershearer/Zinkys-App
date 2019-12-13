@@ -10,7 +10,7 @@ class Footer extends Component {
                 </a>
                 <div>
                     {/* <img class="fas fa-phone" style='font-size:20px;color:#007bff;margin: 5px;'></img> */}
-                    <p>(270) 629-3436</p>
+                    <p id='number'>(270) 629-3436</p>
                 </div>
             </div>
 

@@ -29,6 +29,11 @@
   text-decoration: underline;
 }
 
+html {
+  height: 100%;
+}
+
+
 @media only screen and (max-width: 1250px) {
   #facebookGreet {
     display: none;

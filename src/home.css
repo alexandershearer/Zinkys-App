@@ -59,6 +59,10 @@ left: 4%;
     line-height: 35px;
 }
 
+.container {
+    margin-bottom: 100px;
+}
+
 .bottomPar {
     padding-bottom: 30px;
     text-align: center;

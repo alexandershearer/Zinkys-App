@@ -29,17 +29,8 @@
   text-decoration: underline;
 }
 
-#hours {
- 
-  color: yellow;
-  list-style-type: none;
-  list-style: none;
-  margin-right: 150px;
-}
-
-#list {
-  margin-right: 60px;
-  margin-bottom: -1px;
+html {
+  height: 100%;
 }
 
 

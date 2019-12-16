@@ -43,12 +43,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
 
-        <div id='hours'> 
-          <ul id='list'>Hours</ul>
-          <li>Mon-Fri: 8:00am-7:30pm</li>
-          <li>Sat 8:00am-12:00pm, 4:00pm-7:30pm</li>
-          <li>Sunday: 4:00pm-7:30pm</li>
-        </div>
+       
          
         <Navbar.Brand>
           

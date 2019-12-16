@@ -12,6 +12,13 @@ class Footer extends Component {
                     {/* <img class="fas fa-phone" style='font-size:20px;color:#007bff;margin: 5px;'></img> */}
                     <p id='number'>(270) 629-3436</p>
                 </div>
+
+                <div id='hours' text-decoration= 'none'> 
+          <ul id='list1'>Hours</ul>
+          <li>Mon-Fri: 8:00am-7:30pm</li>
+          <li>Sat 8:00am-12:00pm, 4:00pm-7:30pm</li>
+          <li>Sunday: 4:00pm-7:30pm</li>
+        </div>
             </div>
 
         );

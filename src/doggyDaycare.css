@@ -2,6 +2,8 @@
     margin-top: 40px;
     font-family: 'Sanchez', serif;
     margin: 20px;
+
+    text-decoration: underline;
 }
 
 #groupOne {
@@ -49,7 +51,7 @@
 }
 
 #enrollment {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 

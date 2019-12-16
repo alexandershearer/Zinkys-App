@@ -4,7 +4,12 @@
     
 }
 
-#Body2 {
+
+#groomingDescription{
+    font-size: 16pt;
+}
+
+#col1 {
     font-family: 'Sanchez', serif;
 }
 
@@ -14,6 +19,7 @@
     height: 300px;
     width: 400px;
     border-radius: 15%;
+    border: 1px solid black;
     box-shadow: 2px 3px 29px -4px rgba(0,0,0,0.75);
     margin-bottom: 70px;
     border: 2px solid black;
@@ -21,6 +27,8 @@
 }
 
 #pic2 {
+    border: 1px solid black;
+
     margin-top: 30px;
     height: 300px;
     width: 400px;

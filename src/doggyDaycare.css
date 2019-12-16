@@ -5,7 +5,7 @@
 
 #groupOne {
     text-align: center;
-    max-width: 680px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -16,43 +16,21 @@
 }
 
 #pictureOne {
-  height: 400px;
-  width: 500px;
-  margin-left:400px;
-  margin-bottom: 50px;
-  border-radius: 40%;
-  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-  border: 2px double rgba(61, 38, 27, 0.808);
-}
+    height: 250px;
+    width: 300px;
+    float: left;
+  }
 
 #pictureTwo {
-  height: 450px;
-  width: 500px;
+  height: 250px;
+  width: 300px;
   float: left;
 }
 
 #pictureThree {
-    height: 400px;
-    width: 450px;
-    border-radius: 50%;
-    margin-right: 80px;
-    margin-bottom: 90px;
-    margin-top: 250px;
-    margin-left: 40px;
-    border-radius: 40%;
-    box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-    border: 2px double rgba(61, 38, 27, 0.808);
-}
-
-#pictureFour {
-  height: 400px;
-  width: 450px;
-  margin-right: 80px;
-  margin-top: -100px;
+  height: 250px;
+  width: 300px;
   float: left;
-  border-radius: 40%;
-  box-shadow: -5px 10px 69px -12px rgba(0,0,0,0.75);
-  border: 2px double rgba(61, 38, 27, 0.808);
 }
 
 /* #topPar { */
@@ -74,7 +52,7 @@
 
 #daycareServices {
     text-decoration: underline;
-    margin: 20px;
+    margin-top: 250px;
 }
 
 #enrollment {

@@ -38,10 +38,9 @@ class Home extends Component {
                     <h1 className='title'>Price List</h1>
                 </div>
         <Row id="row">
-             <Col id='box'>
+             <Col id='box1'>
                 
-                <h2 id='priceHeader'>Grooming Rates</h2>
-                <h3>Full Groom</h3>
+                <h3 id='priceHeader'>Full Groom</h3>
                 <p id='ptext'>Small Dogs --- $35.00</p>
                 <p>Medium Dogs --- $40.00</p>
                 <p>Large Dogs --- $45.00</p>
@@ -49,14 +48,14 @@ class Home extends Component {
                 
             </Col>
 
-            <Col id='box'>
+            <Col id='box2'>
                 <h2 id='priceHeader'>Baths Only</h2>
                 <p>Small Dogs --- $15.00</p>
                 <p>Medium Dogs --- $20.00</p>
                 <p>Large Dogs --- $22.00</p>
                 <p>XL Dogs --- $30.00</p>
             </Col>
-            <Col id='box'>
+            <Col id='box3'>
                 <h2 id='priceHeader'>Nails Clipped</h2>
                 <p>All Dogs --- $10.00</p>
                 <h2 id='priceHeader'>Matted Fur</h2>
@@ -64,8 +63,8 @@ class Home extends Component {
             </Col>
         </Row>
         <Row id="row">
-            <Col id='box'>
-                <h3 id="services">Daycare Services</h3>
+            <Col id='box4'>
+                <h3 id="priceHeader">Daycare Services</h3>
                 <p>Per Day --- $16.00</p>
                 <p>5 Day Pass --- $75.00</p>
                 <p>7 Day Pass --- $101.50</p>
@@ -74,8 +73,8 @@ class Home extends Component {
             </Col>
             
 
-            <Col id='box'>
-                <h1 id="boardingTitle">Boarding <h3>(Inclues Daycare)</h3></h1>
+            <Col id='box5'>
+                <h1 id="priceHeader">Boarding</h1> <h3 id='priceHeader1'>(Inclues Daycare)</h3>
                 <p>Small Dogs --- $21.00 per night</p>
                 <p>Large Dogs --- $24.00 per night</p>
             </Col>

@@ -146,8 +146,9 @@ left: 10%;
 }
 
 .title {
-    color: rgba(61, 38, 27, 0.808);;
+    color: #212529;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 

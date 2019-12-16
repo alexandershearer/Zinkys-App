@@ -12,7 +12,7 @@ import './Requirements.css';
 class Grooming extends Component {
     render() {
         return (
-            <div>
+            <div id='Body2'>
                 <h1 id='groomingTitle'>Grooming Rates</h1>
 
                 <p id='groomingDescription'>Let us pamper your pup. We will leave your pups shinny and smelling fresh!
@@ -21,7 +21,7 @@ class Grooming extends Component {
                 <Row>
                     <Col id='col1'>
 
-                        <h3 id='fullGroom'>Full Groom</h3>
+                        <h2 id='Head'>Full Groom</h2>
                         <p>Small Dogs --- $35.00</p>
                         <p>Medium Dogs --- $40.00</p>
                         <p>Large Dogs --- $45.00</p>
@@ -30,16 +30,16 @@ class Grooming extends Component {
                     </Col>
 
                     <Col id='col2'>
-                        <h2 id='bathOnly'>Baths Only</h2>
+                        <h2 id='Head'>Baths Only</h2>
                         <p>Small Dogs --- $15.00</p>
                         <p>Medium Dogs --- $20.00</p>
                         <p>Large Dogs --- $22.00</p>
                         <p>XL Dogs --- $30.00</p>
                     </Col>
                     <Col id='col3'>
-                        <h2 id='nailsClipped'>Nails Clipped</h2>
+                        <h2 id='Head'>Nails Clipped</h2>
                         <p>All Dogs --- $10.00</p>
-                        <h2 id='nailsClipped'>Matted Fur</h2>
+                        <h2 id='Head'>Matted Fur</h2>
                         <p>All Dogs --- $10.00</p>
                     </Col>
                 </Row>

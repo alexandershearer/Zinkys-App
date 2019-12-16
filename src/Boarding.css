@@ -2,24 +2,34 @@
 #boardingTitle {
     text-decoration: underline;
     margin: 15px;
+    
+}
+
+#Group {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
     font-family: 'Sanchez', serif;
+    
 }
 
 #pricesTitle {
+    text-decoration: underline;
     margin-right: 40px;
     margin-bottom: 15px;
     font-family: 'Sanchez', serif;
 }
 
 #div1 {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 200px;
     margin-left: 200px;
     font-family: 'Sanchez', serif;
 }
 
 #div2 {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 280px;
     margin-right: 270px;
     margin-left: 270px;
     margin-bottom: 20px;
@@ -31,13 +41,22 @@
     font-family: 'Sanchez', serif;
 }
 
-#div4 {
+#div3 {
     margin-top: 30px;
     margin-left: 225px;
     margin-right: 225px;
     font-family: 'Sanchez', serif;
     padding-bottom: 40px;
 }
+
+#picOne {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
 
 @media (max-width:480px) {
     #div1{

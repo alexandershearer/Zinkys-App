@@ -1,12 +1,14 @@
 #doggyTitle{
     margin-top: 40px;
     font-family: 'Sanchez', serif;
+    margin: 20px;
 }
 
 #groupOne {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 #groupTwo{
@@ -19,19 +21,10 @@
     height: 250px;
     width: 300px;
     float: left;
+    border: 2px solid black;
   }
 
-#pictureTwo {
-  height: 250px;
-  width: 300px;
-  float: left;
-}
 
-#pictureThree {
-  height: 250px;
-  width: 300px;
-  float: left;
-}
 
 /* #topPar { */
     

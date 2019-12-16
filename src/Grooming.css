@@ -1,8 +1,9 @@
-#fullGroom{
+#Head{
     text-decoration: underline;
     font-family: 'Sanchez', serif;
     
 }
+
 
 #groomingDescription{
     font-size: 16pt;
@@ -10,24 +11,6 @@
 
 #col1 {
     font-family: 'Sanchez', serif;
-}
-
-#col2 {
-    margin-bottom: 20pt;
-    margin-right: 10px;
-    font-family: 'Sanchez', serif;
-}
-
-#bathOnly{
-    text-decoration: underline;
-    font-family: 'Sanchez', serif;
-
-}
-
-#nailsClipped{
-    text-decoration: underline;
-    font-family: 'Sanchez', serif;
-
 }
 
 
@@ -39,6 +22,7 @@
     border: 1px solid black;
     box-shadow: 2px 3px 29px -4px rgba(0,0,0,0.75);
     margin-bottom: 70px;
+    border: 2px solid black;
 
 }
 
@@ -50,6 +34,7 @@
     width: 400px;
     border-radius: 15%;
     box-shadow: 2px 3px 29px -4px rgba(0,0,0,0.75);
+    border: 2px solid black;
 }
 
 .picDiv{

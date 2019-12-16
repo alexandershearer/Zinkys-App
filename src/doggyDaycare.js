@@ -3,7 +3,7 @@ import './doggyDaycare.css';
 import Zinkys26 from './Images/Zinkys26.jpg'
 import Zinkys35 from './Images/Zinkys35.jpg'
 import Zinkys31 from './Images/Zinkys31.jpg'
-import Zinkys12 from './Images/Zinkys12.jpg'
+
 
 
 class doggyDaycare extends Component {
@@ -18,8 +18,8 @@ class doggyDaycare extends Component {
                      </p>
                      
                       <img id='pictureOne' src={Zinkys26} /> 
-                      <img id='pictureTwo' src={Zinkys31} /> 
-                      <img id='pictureThree' src={Zinkys35} /> 
+                      <img id='pictureOne' src={Zinkys31} /> 
+                      <img id='pictureOne' src={Zinkys35} /> 
                 </div>
                 
 

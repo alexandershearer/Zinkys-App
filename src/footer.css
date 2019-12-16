@@ -16,8 +16,8 @@
 }
 
 #hours {
- 
-  color: yellow;
+  font-size: 12pt;
+  color: white;
   list-style-type: none;
   list-style: none;
   padding-bottom: 20px;

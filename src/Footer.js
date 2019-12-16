@@ -14,11 +14,10 @@ class Footer extends Component {
                 </div>
 
                 <div id='hours' text-decoration= 'none'> 
-          <ul id='list1'>Hours</ul>
-          <li>Mon-Fri: 8:00am-7:30pm</li>
-          <li>Sat 8:00am-12:00pm, 4:00pm-7:30pm</li>
-          <li>Sunday: 4:00pm-7:30pm</li>
-        </div>
+                    <ul>Mon-Fri: 8:00am-7:30pm</ul>
+                    <ul>Sat 8:00am-12:00pm, 4:00pm-7:30pm</ul>
+                    <ul>Sunday: 4:00pm-7:30pm</ul>
+                </div>
             </div>
 
         );

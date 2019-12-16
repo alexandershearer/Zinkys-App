@@ -14,19 +14,18 @@ class doggyDaycare extends Component {
                 <div id='groupOne' >
                     
                 <p id="topPar">
-                    We pride in our Doggy Daycare program at Zinky's. We hate to think of a pup sitting at home all day when they could be at Zinky's playing with their dog friends and getting some much needed exercise! We know people lead very busy lives, let us walk your pup and give him/her attention while you're off to work making money for all those treats you have to buy them! Have class in the morning? We offer half days of daycare too! We're here to meet your and your furbabies needs. 
+                    We pride in our Doggy Daycare program at Zinky's. We hate to think of a pup sitting at home all day when they could be at Zinky's playing with their dog friends and getting some much needed exercise! We know people lead very busy lives, let us walk your pup and give him/her attention while you're off to work making money for all those treats you have to buy them! 
                      </p>
                      
-                     {/* <img id='pictureTwo' src={Zinkys31} /> */}
+                      <img id='pictureOne' src={Zinkys26} /> 
+                      <img id='pictureTwo' src={Zinkys31} /> 
+                      <img id='pictureThree' src={Zinkys35} /> 
                 </div>
                 
-                <div id='groupTwo'>
-                    
-                {/* <img id='pictureThree' src={Zinkys26} /> */}
-                {/* <p id="bottomPar">We love to be able to play outside with all of our visitors. We have two play areas outside, one for our small pups and the other for our large pups. But when it's too hot, too cold, or raining, we have two large play areas inside as well! Nothing will stop the fun here at Zinky's!</p> */}
+
                 {/* <img id='pictureFour' src={Zinkys12} />  */}
                 
-                </div>
+               <br></br>
                 <div id="prices">
 
                 

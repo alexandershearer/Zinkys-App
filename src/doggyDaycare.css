@@ -1,6 +1,7 @@
 #doggyTitle{
     margin-top: 40px;
     font-family: 'Sanchez', serif;
+    text-decoration: underline;
 }
 
 #groupOne {
@@ -56,7 +57,7 @@
 }
 
 #enrollment {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 

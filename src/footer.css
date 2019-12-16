@@ -1,8 +1,7 @@
 .footer {
-  
-  left: 0;
-  right: 0;
+  position: fixed;
   bottom: 0;
+  height: 40px;
   width: 100%;
   background-color: #343a40;
   color: #999DA0;
@@ -30,7 +29,6 @@
 
 #list1 {
   margin-right: 60px;
-  margin-bottom: -1px;
   font-size: 20px; 
 }
 

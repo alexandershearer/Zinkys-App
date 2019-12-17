@@ -52,3 +52,13 @@ li {
  }
 }
 
+@media (max-width:480px) {
+  #hours{
+    font-size: 6pt;
+  }
+  #locationNum{
+    font-size: 6pt;
+    width: 60%;
+  }
+}
+

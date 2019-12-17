@@ -88,3 +88,14 @@
     
   }
 
+  @media (max-width:480px) {
+    .par{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    #img2{
+        display: none;
+    }
+  }
+

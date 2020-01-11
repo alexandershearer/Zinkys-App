@@ -70,4 +70,10 @@
     }
   }
 
+  @media (max-width:480px) {
+    #daycareServices{
+        margin-top: 20px;
+    }
+  }
+
 

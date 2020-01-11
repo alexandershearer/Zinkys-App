@@ -1,53 +1,35 @@
 #doggyTitle{
-    margin-top: 20px;
+   
     font-family: 'Sanchez', serif;
-    margin: 20px;
-
+    margin: 30px;
     text-decoration: underline;
 }
 
-#groupOne {
+#topPar {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
     font-size: 20px;
 }
 
-#groupTwo{
-    float: right;
-    display: flex;
-    
-}
-
-#pictureOne {
-    height: 250px;
-    width: 300px;
-    float: left;
-    border: 2px solid black;
-  }
-
-
-
-/* #topPar { */
-    
-    /* font-family: 'Sanchez', serif; */
-    /* text-align: center; */
-    /* margin-left: 300px; */
-    /* line-height: 35pt; */
-    /* max-width: 680px; */
-    
-/* } */
-
-#prices {
+#Prices {
+    background-color: rgba(61, 38, 27, 0.808);
+    border: 4px solid burlywood;
+    color: #ffcc32;
+    margin-bottom: 15px;
+    padding: 10px;
     font-family: 'Sanchez', serif;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 80px;
+    max-width: 300px;
+    display: inline-block;
+    margin: 50px;
+    padding: 30px;
+
+   
 }
 
 #daycareServices {
     text-decoration: underline;
-    margin-top: 250px;
+    
 }
 
 #enrollment {

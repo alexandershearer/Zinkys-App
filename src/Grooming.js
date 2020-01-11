@@ -18,6 +18,8 @@ class Grooming extends Component {
                 <p id='groomingDescription'>Let us pamper your pup. We will leave your pups shinny and smelling fresh!
                 </p>
 
+                <Container id="groomRates">
+
                 <Row>
                     <Col id='col1'>
 
@@ -43,6 +45,8 @@ class Grooming extends Component {
                         <p>All Dogs --- $10.00</p>
                     </Col>
                 </Row>
+
+                </Container>
 
                 <div className='picDiv'>
                 <img src={Zinkys13} height="200" width="250" id="pic"></img>

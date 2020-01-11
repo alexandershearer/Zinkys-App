@@ -13,21 +13,15 @@ left: 4%;
 }
 
 #slogan{
-    font-size: 52pt;
-    margin-right: 200px;
+    font-size: 30pt;
     color: #ffcc32;
-    position: absolute;
-    right: 4%;
-    top: 10%;
-    margin-left: 20px;
     font-family: 'Sanchez', serif;
-    width: 50%;
     font-weight: 400;
-
-}
-#homeTitle {
-    font-family: 'Sanchez', serif;
-    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
 }
 
 #mainImage{
@@ -38,6 +32,7 @@ left: 4%;
     border-bottom: 5px solid black;
     background-size: cover;
 }
+
 #layer{
     position: absolute;
     top: 0;
@@ -47,9 +42,6 @@ left: 4%;
     background: rgba(0, 0, 0, 0.356);
 }
 
-#pic {
-    float: initial;
-}
 
 .topPar {
     text-align: center;
@@ -72,14 +64,7 @@ left: 4%;
     line-height: 35pt;
 }
 
-#List {
-    margin-bottom: 190px;
-    font-size: 20px;
-    list-style-type: none;
-    font-family: 'Sanchez', serif;
-    
-   
-}
+
 
 #hours {
     margin-left: 30px;
@@ -95,10 +80,6 @@ left: 4%;
 
 }
 
-#List > li{
-    padding-bottom: 15px;
-    font-size: 18pt;
-}
 
 .text {
     padding-bottom: 20px;
@@ -108,8 +89,8 @@ left: 4%;
     background-color: rgba(61, 38, 27, 0.808);
     border: 4px solid burlywood;
     color: #ffcc32;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin: 15px;
+    padding: 20px;
     font-family: 'Sanchez', serif;
 }
 
@@ -117,8 +98,8 @@ left: 4%;
     background-color: rgba(61, 38, 27, 0.808);
     border: 4px solid burlywood;
     color: #ffcc32;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin: 15px;
+    padding: 20px;
     font-family: 'Sanchez', serif;
 }
 
@@ -126,8 +107,8 @@ left: 4%;
     background-color: rgba(61, 38, 27, 0.808);
     border: 4px solid burlywood;
     color: #ffcc32;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin: 15px;
+    padding: 20px;
     font-family: 'Sanchez', serif;
 }
 
@@ -135,8 +116,8 @@ left: 4%;
     background-color: rgba(61, 38, 27, 0.808);
     border: 4px solid burlywood;
     color: #ffcc32;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin: 15px;
+    padding: 20px;
     font-family: 'Sanchez', serif;
 }
 
@@ -144,8 +125,8 @@ left: 4%;
     background-color: rgba(61, 38, 27, 0.808);
     border: 4px solid burlywood;
     color: #ffcc32;
-    margin-bottom: 15px;
-    padding-top: 10px;
+    margin: 15px;
+    padding: 20px;
     font-family: 'Sanchez', serif;
 }
 
@@ -161,7 +142,7 @@ left: 4%;
 
 .title {
     color: #212529;
-    margin-bottom: 20px;
+    margin: 30px;
     text-decoration: none;
 }
 
